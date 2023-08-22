@@ -1,0 +1,58 @@
+@import"./fonts.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Krona One", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;}
+
+.header {
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+    height: 76px;
+    background-color:rgba(16, 138, 50, 1);
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.header-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 34px;
+}
+
+.main-section{
+    background-image: url(../img/img-1.png);
+    max-width: 1440px;
+    height: 567px;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    padding-top: 258px;
+}
